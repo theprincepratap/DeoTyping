@@ -21,11 +21,11 @@
     margin-bottom: 30px;
 }
 
-.contact , .portfolio
+.contact
 {
     margin-left: 0px;
 }
-.contact .contact-form .col-6{
+.contact .contact-form .col-12{
     flex: 0 0 100%;
     max-width: 100%;
 }
@@ -46,7 +46,8 @@
         <div class="contact-form padd-15">
           <form class="form" method="POST" name="google-sheet">
           <div class="row">
-            <div class="contact-item col-12 ">
+            <div class="contact-item col-12  flex: 0 0 100%;
+    max-width: 100%; ">
               <div class="form-group  mb-3 ">
                 <input
                   type="text"
@@ -109,6 +110,7 @@
         <div class="row">
             <div class="contact-item col-12 padd-15">
               <div class="contact-item col-12 padd-15">
+             <label class="text-secondary" for="date">Date</label>
                   <div class="form-group mb-3"  >
                     <input
                       type="date"
