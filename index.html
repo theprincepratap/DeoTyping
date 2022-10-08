@@ -21,11 +21,11 @@
     margin-bottom: 30px;
 }
 
-.contact
+.contact , .portfolio
 {
     margin-left: 0px;
 }
-.contact .contact-form .col-12{
+.contact .contact-form .col-6{
     flex: 0 0 100%;
     max-width: 100%;
 }
@@ -41,14 +41,13 @@
         <h1 class="text-info text-center">Typing Test Score </h1>
     </div>
     <section>
-    <div class="typing-score" style=" margin:100px 100px;">
+    <div class="typing-score mx-5 mt-5">
     <div class="row">
         <div class="contact-form padd-15">
           <form class="form" method="POST" name="google-sheet">
           <div class="row">
-            <div class="contact-item col-12  flex: 0 0 100%;
-    max-width: 100%; ">
-              <div class="form-group  mb-3 ">
+            <div class="contact-item col-lg-12 col-md-12 col-sm-12  " >
+              <div class="form-group  mb-3 d-flex">
                 <input
                   type="text"
                   name="Name"
@@ -58,7 +57,7 @@
               </div>
             </div>
            
-              <div class="contact-item col-12 padd-15">
+              <div class="contact-itemcol-lg-12 col-md-12 col-sm-12">
                 <div class="form-group mb-3"  >
                   <input
                     type="number"
@@ -70,7 +69,7 @@
               </div>
            
             <div class="row">
-            <div class="contact-item col-12 ">
+            <div class="contact-item col-lg-12 col-md-12 col-sm-12 ">
               <div class="form-group mb-3"  >
                 <input
                   type="number"
@@ -82,7 +81,7 @@
             </div>
           </div>
             <div class="row">
-              <div class="contact-item col-12 padd-15">
+              <div class="contact-itemcol-lg-12 col-md-12 col-sm-12">
                 <div class="form-group  mb-3" >
                   <input
                     type="number"
@@ -94,8 +93,8 @@
               </div>
             </div>
             <div class="row">
-              <div class="contact-item col-12 padd-15">
-                <div class="contact-item col-12 padd-15">
+              <div class="contact-item col-lg-12 col-md-12 col-sm-12">
+                
                     <div class="form-group mb-3"  >
                       <input
                         type="number"
@@ -106,11 +105,11 @@
                 </div>
               </div>
             </div>
-        </div>
+        
         <div class="row">
-            <div class="contact-item col-12 padd-15">
-              <div class="contact-item col-12 padd-15">
-             <label class="text-secondary" for="date">Date</label>
+          
+              <div class="contact-item col-lg-12 col-md-12 col-sm-12">
+                <label class= "d-flex justify-content-center"style="color:white;" for="date">Date</label>
                   <div class="form-group mb-3"  >
                     <input
                       type="date"
@@ -122,9 +121,9 @@
               </div>
             </div>
           </div>
-      </div>
+      
             <div class="row">
-              <div class="contact-item col-12 padd-15 d-flex justify-content-center">
+              <div class="contact-item col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
            
                   <button type="submit" value= "send Email " name="submit" class="btn btn-success btn-lg " ">
                     Submit
